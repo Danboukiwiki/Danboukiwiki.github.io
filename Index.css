@@ -1,0 +1,150 @@
+body{
+    padding:0;
+            margin:0;
+            box-sizing:border-box
+}
+        #画像{
+        display:block;
+            width:135px;
+            height:70px;
+            padding:10px;
+        }
+        #wiki名称{
+            display:flex;
+            align-items:center;
+            font-size:clamp(16px,5vw,40px);
+            margin:0;
+            padding:20px;
+            width:100%;
+            height:50px;
+            max-height:50px;
+            border-left:solid 1.5px black;
+        background-image:linear-gradient(rgba(255,255,255, 0.3), rgba(255,255,255, 0.1)), url(背景.jpg);
+        background-size: cover;
+        background-position:center;
+        color:white;
+        }
+#最上部{
+    border-bottom:solid 1.5px black;
+    display:flex
+}
+p{
+    margin:0
+}
+#ページ名{
+  background-color:rgb(196, 247, 247);
+  padding:10px 0;
+  display:block;
+  width:100%;
+  text-align:center;
+  font-size:20px;
+  border-bottom:solid 1.5px;
+  border-top:solid 1.5px
+}
+#aa{
+    display:block;
+    text-align:center;
+    font-size:20px;
+}
+.下線{
+    padding-right:40%;
+    border-bottom:solid 2px black;
+    margin-bottom:1%
+}
+#普通文{
+     margin:0 2%;
+}
+.下線下部
+{
+    margin-top:1%
+}
+.詳細ボタン{
+    margin:10px 0;
+    width:80%;
+    padding:1% 1%;
+    border:solid 2px black;
+    border-bottom:solid 2px
+}
+.ボタン項目破線{
+    margin:3px;
+    border-bottom:dashed 2px black
+}
+summary {
+  list-style: none;
+  cursor: pointer;
+  position: relative;
+  padding-left: 1.2em
+}
+summary::-webkit-details-marker {
+  display: none
+}
+summary::before {
+  content: "+"; 
+  position: absolute;
+  left: 0;
+  font-weight: bold
+}
+details[open] summary::before {
+  content: "−"
+}
+.小説明{
+    margin-top:1.1em;
+    font-size:0.8em;
+    border-bottom:solid 1px black;
+width:60%
+}
+#最下部{
+    background-color:rgb(197, 220, 235);
+}
+.し{
+text-align:center
+}
+#検索{
+    margin-right:2%;
+    text-align:right
+}
+#バー{
+    margin:0 1%;
+    margin-top:1%
+}
+.i {
+    width:100%;
+    margin:0 auto;
+    border:solid 1px black;
+    border-bottom:none
+}
+#大文字 {
+    text-align:center;
+    padding:1% 2%;
+    font-size:1.5em;
+    color:white;
+    background-color:black;
+    border:solid 1px black
+}
+#記事画像 {
+    display:block;
+    margin:0 auto;
+    width:30%;
+    min-width:100px;
+    padding:0 5%
+}
+.項目 {
+text-align:center;
+padding:1%;
+border:solid 1px black;
+border-bottom:none;
+background-color:rgb(236, 236, 236);
+}
+.項目内部 {
+text-align:center;
+padding:1%;
+border:solid 1px black;
+}
+.項目下 {
+text-align:center;
+padding:1%;
+border:solid 1px black;
+border-top:none;
+border-bottom:none;
+background-color:rgb(236, 236, 236);
+}
