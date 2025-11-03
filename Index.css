@@ -148,3 +148,10 @@ border-top:none;
 border-bottom:none;
 background-color:rgb(236, 236, 236);
 }
+.概要ボタン{
+    margin:10px 0;
+    width:auto;
+    padding:1% 1%;
+    border:solid 2px black;
+    border-bottom:solid 2px
+}
